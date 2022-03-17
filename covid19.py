@@ -12,7 +12,7 @@ def update():
     #repeating the loop for multiple times
     while(True):
         pync.notify(
-            title = "Dạ thưa ông chủ San Công Tử",
+            title = "Thông tin covid",
             message = f"Số ca nhiễm  :{data[0]['new_infections']}\nSố ca tử vong hôm nay:{data[0]['new_deaths']}\nSố ca hồi phục hôm nay:{data[0]['new_recovered']}" 
         )
         time.sleep(10
